@@ -1,10 +1,10 @@
-Learnato Discussion Forum — Microservice
+Learnato Discussion Forum - Microservice
 
 Empower learning through conversation.
 This microservice provides a responsive browser-based discussion forum where learners and instructors can post questions, share insights, and reply in real time.
 Built using Node.js, React, Tailwind CSS, and Vite.
 
-📂 Project Structure
+Project Structure
 project/
  ├─ server/            # Backend (Node.js + Express + MongoDB)
  │   ├─ controllers/
@@ -23,7 +23,7 @@ project/
  ├─ package.json
  └─ vite.config.ts
 
-🚀 Features
+- Features
 
 Create and view posts
 
@@ -35,7 +35,7 @@ Microservice ready — easy plug-and-play into Learnato ecosystem
 
 Fully API-driven separation of client/server
 
-🛠️ Requirements
+Requirements
 
 Ensure you have installed:
 
@@ -43,12 +43,12 @@ Tool	Version
 Node.js	>= 18.x
 npm / yarn / pnpm	any
 MongoDB	Local or Cloud (Atlas)
-⚙️ Setup Instructions
-1️⃣ Clone the Repository
+Setup Instructions
+1️ Clone the Repository
 git clone <repo-url>
 cd project
 
-2️⃣ Setup Backend
+2️ Setup Backend
 cd server
 npm install
 
@@ -71,7 +71,7 @@ npm start
 
 Server runs at: http://localhost:5000
 
-3️⃣ Setup Frontend
+3️ Setup Frontend
 
 Open a new terminal:
 
@@ -86,7 +86,7 @@ npm run dev
 
 Frontend runs at: http://localhost:5173
 
-🔗 API Endpoints Overview
+ API Endpoints Overview
 Method	Endpoint	Description
 GET	/posts	Fetch all posts
 POST	/posts	Create post
